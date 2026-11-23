@@ -1,1 +1,26 @@
-MR UBER SHT SHOP
+media: media
+
+content:
+  - name: catalogue
+    label: Catalogue et prix
+    type: file
+    path: data/catalogue.json
+    format: json
+    fields:
+      - name: produits
+        label: Produits
+        type: object
+        list: true
+        fields:
+          - name: nom
+            label: Nom du produit
+            type: string
+          - name: prix
+            label: Prix
+            type: string
+      - name: signal
+        label: Contact Signal
+        type: string
+      - name: telegram
+        label: Contact Telegram
+        type: string
