@@ -1,0 +1,12 @@
+{
+  "produits": [
+    {
+      "nom": "MOUSSE PHILIPPE ",
+      "prix": "10g : 50€"
+    },
+    {
+      "nom": "Coke 100% péruvien ",
+      "prix": "1g : 50€"
+    }
+  ]
+}
