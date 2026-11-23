@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MR UBER SHT SHOP</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#090909;color:#fff;font-family:Arial,sans-serif;text-align:center}
+header{padding:30px 18px 20px}
+.photo{width:100%;max-width:340px;height:220px;object-fit:contain;border-radius:14px}
+h1{color:#d5ad55;font-size:27px;margin:18px 0 8px}
+.slogan{color:#ddd;letter-spacing:2px;font-size:13px}
+main{padding:20px}
+button,.contact{display:block;width:100%;max-width:350px;margin:15px auto;padding:17px;border:1px solid #d5ad55;border-radius:8px;background:#d5ad55;color:#090909;font-size:15px;font-weight:bold;text-decoration:none;cursor:pointer}
+.secondary{background:transparent;color:#d5ad55}
+#catalogue{display:none;margin-top:30px}
+.product{max-width:350px;margin:18px auto;padding:22px;border:1px solid #a9873e;border-radius:12px;background:#151515}
+.product h2{color:#d5ad55}
+.price{font-size:20px;font-weight:bold;margin:12px}
+h2.section{color:#d5ad55;margin-top:35px}
+footer{padding:25px;color:#888;font-size:12px}
+</style>
+</head>
+<body>
+<header>
+<img class="photo" src="photo-accueil.jpg" alt="MR UBER SHT SHOP">
+<h1>MR UBER SHT SHOP</h1>
+<p class="slogan">QUALITÉ - FIABILITÉ - DISCRÉTION</p>
+</header>
+
+<main>
+<button onclick="ouvrirMenus()">MENUS DISPONIBLES</button>
+
+<section id="catalogue">
+<h2 class="section">NOS MENUS DISPONIBLES</h2>
+
+<div class="product">
+<h2>Sac farine blé</h2>
+<p class="price">50 €</p>
+<p class="price">100 €</p>
+</div>
+
+<div class="product">
+<h2>Sucre bla</h2>
+<p class="price">20 €</p>
+<p class="price">50 €</p>
+</div>
+
+<h2 class="section">NOUS CONTACTER</h2>
+<a class="contact" href="https://signal.me/#eu/51dEiUCpUpVKf0FmuP8lw5SR7VPP3gzY-WzavQZ0run1WLpMKA9EdbOF75XTOZXQ">CONTACT SIGNAL</a>
+<a class="contact secondary" href="https://t.me/luce_do">CONTACT TELEGRAM</a>
+
+<h2 class="section">RETours DES CLIENTS</h2>
+<p>Les témoignages authentiques de nos clients seront publiés ici.</p>
+</section>
+</main>
+
+<footer>© MR UBER SHT SHOP - Tous droits réservés</footer>
+
+<script>
+function ouvrirMenus(){
+document.getElementById("catalogue").style.display="block";
+document.getElementById("catalogue").scrollIntoView({behavior:"smooth"});
+}
+</script>
+</body>
+</html>
